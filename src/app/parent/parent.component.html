@@ -1,0 +1,10 @@
+
+<div class="parent-container">
+    <p style="color:rgb(229, 114, 114); font-weight: bold;">Parent Works!</p>
+    <div class="input-container">
+      <input type="text" (change)="setMessage($event)" placeholder="Enter your message">
+      <button (click)="sendMessage()">Send Message to Child</button>
+    </div>
+    <app-child [message]="messageFromParent"></app-child>
+  </div>
+  

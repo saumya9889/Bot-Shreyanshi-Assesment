@@ -1,0 +1,39 @@
+.parent-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    margin-bottom: 10px;
+    margin-top: .5rem;
+    display: grid;
+    justify-content: center;
+    gap:18px;
+    input{
+      height: #9f888b;
+      width: calc(100% - 20px);
+      padding: 5px 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+  }
+  
+  button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #5f2f50;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: #926276;
+  }
+  
