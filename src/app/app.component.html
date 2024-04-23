@@ -1,15 +1,12 @@
 
 
 <style>
-  .main {
+.main {
   font-family: Arial, sans-serif;
   margin: 0!important;
   padding: 0;
   background-color: #9f888b;
   overflow-y: hidden;
-}
-
-.main {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,24 +22,27 @@
   transition: transform 0.3s; 
 }
 
-
 .content:hover {
   transform: scale(1.05);
 }
+
+@media screen and (max-width: 480px) {
+  .content {
+    padding: 20px;
+  }
+}
+
 h1 {
   font-size: 36px;
   margin-bottom: 20px;
   color: #a61232;
 }
 
-
-
-
 </style>
 
 <main class="main">
   <div class="content">
-    <h1>Welcom To My Project</h1>
+    <h1>Welcome To My Project</h1>
     <app-parent></app-parent>
   </div>
 </main>
